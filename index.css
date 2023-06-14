@@ -15,107 +15,59 @@ body{
     box-sizing: border-box;
   }
   
-  header {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-      url(./img/tower-block-8k-8k-uhd-city-lights-wallpaper-preview.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-  }
-  
-  .content-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-  }
-  
-  .content-container h1 {
-    font-size: 4rem;
-    color: #fff;
-  }
-  
-  .content-container p {
-    width: 600px;
+  .to{
     text-align: center;
-    margin-bottom: 40px;
-    color: #fff;
-    line-height: 24px;
-  }
-  
-  .cta-btn {
-    padding: 12px 30px;
-    font-size: 1.2rem;
-    outline: none;
-    border: none;
-    background-color: crimson;
-    color: #fff;
-    cursor: pointer;
-  }
-  
-  .modal-container {
-    background-color: rgba(0, 0, 0, 0.6);
-    display: none;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-  }
-  
-  .modal {
-    background: #fff;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-    position: absolute;
-    overflow: hidden;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    max-width: 100%;
-    width: 400px;
-  }
-  
-  .modal-content {
-    padding: 20px;
-  }
-  
-  .modal-form div {
-    margin: 20px 0;
-  }
-  
-  .modal-form label {
-    display: block;
-    margin-bottom: 6px;
-  }
-  
-  .modal-form .form-input {
+    margin-top: 200px;
+    color: white;
+}
+
+.lorrem{
+    margin-top: 30px;
+    text-align: center;
+    color: white;
+}
+
+.buton{
+    margin-left: 710px;
+    margin-top: 50px;
     padding: 8px;
-    width: 100%;
-  }
-  
-  .close-btn {
-    background: transparent;
+    border-radius: 5px;
+    background-color: rgb(120, 228, 228);
+    color: white;
     border: none;
-    font-size: 25px;
-    position: absolute;
-    top: 5px;
-    right: 12px;
-    cursor: pointer;
-  }
-  
-  .modal-container .submit-btn {
-    padding: 10px 30px;
-    font-weight: bold;
-    background: crimson;
+}
+
+.name{
+    margin-top: 10px;
+}
+
+.inp{
+    margin-top: 5px;
+    padding: 5px 10px;
+}
+.suuu{
+    
+margin-top: 20px;
+    margin-left: 20px;
+    width: 280px;
+    height: 380px;
+}
+
+#myDialog{
+    margin-left: 600px;
+    margin-top: 200px;
+    border-radius: 10px;
     border: none;
-    color: #fff;
-    cursor: pointer;
-  }
+    border: 1px solid white;
+}
   
-  /* JavaScript */
-  .modal-container.show-modal {
-    display: block;
-  }
+ 
+  
+ 
+  
+ 
+  
+ 
+  
+  
   
